@@ -75,7 +75,7 @@
     display: none;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 880px) {
     #nav_list {
         flex-direction: column;
         align-items: center;
@@ -323,6 +323,10 @@
         height: 3rem;
     }
 }
+.prop_destacadas h3 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
 
 .prop_destacadas div a {
     text-decoration: none;
@@ -331,23 +335,22 @@
 
 .prop_destacadas {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 3rem;
-}
-
-.prop_destacadas h3 {
-    display: inline-block;
-    font-size: 2rem;
+    margin: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .prop_destacadas div {
-    display: inline-block;
+    display: flex;
+    flex-wrap: nowrap;
     width: 35rem;
     height: 42rem;
     text-align: center;
-    margin: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
     background-color: rgb(240, 240, 240);
     border-radius: .3rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
@@ -375,33 +378,33 @@
 }
 
 @media (max-width: 860px) {
-    .prop_destacadas {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-        padding: 3rem;
+    .prop_destacadas h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 
-    .prop_destacadas h3 {
-        font-size: 1.7rem;
+    .prop_destacadas {
+        flex-direction: column;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
     }
 
     .prop_destacadas div {
         width: 25rem;
         height: 32rem;
-        margin: 4rem;
+        margin-top: 1.5rem;
     }
 
     .prop_destacadas div img {
         width: 100%;
         height: 15rem;
     }
-
+    
     .prop_destacadas div h6 {
         font-size: 1.7rem;
         padding: .5rem;
     }
-
+    
     .prop_destacadas div p {
         font-size: 1.5rem;
         padding: .5rem;
@@ -411,7 +414,6 @@
 #titulo2_prop h2 {
     font-size: 3rem;
     text-align: center;
-    padding: 6rem 0 3rem;
 }
 
 #caja_publicaciones {
@@ -460,7 +462,6 @@
 @media (max-width: 860px) {
     #titulo2_prop h2 {
         font-size: 2rem;
-        padding: 5rem 0 2rem;
     }
 
     #caja_publicaciones {
