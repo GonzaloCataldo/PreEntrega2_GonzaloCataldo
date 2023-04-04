@@ -104,7 +104,7 @@
 }
 
 #footer p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 2rem;
     color: rgb(250, 250, 250);
 }
@@ -323,6 +323,7 @@
         height: 3rem;
     }
 }
+
 .prop_destacadas h3 {
     font-size: 2.5rem;
     line-height: 3rem;
