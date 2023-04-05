@@ -29,8 +29,6 @@
 
 @media (max-width: 860px) {
     #header {
-        list-style: none;
-        background-color: rgb(250, 0, 0);
         height: 5rem;
     }
     #logo_header {
@@ -76,6 +74,7 @@
 }
 
 @media (max-width: 880px) {
+
     #nav_list {
         flex-direction: column;
         align-items: center;
@@ -187,13 +186,6 @@
         width: 60%;
     }
 
-    .texto_foto img {
-        width: 100%;
-    }
-
-    .foto_texto img {
-        height: 50rem;
-    }
 
     .p_izquierdo {
         font-size: 1.5rem;
@@ -305,7 +297,7 @@
         padding-bottom: .5rem;
     }
 
-    .form_prop input {
+     input {
         margin: 1rem;
         padding: .5rem;
     }
